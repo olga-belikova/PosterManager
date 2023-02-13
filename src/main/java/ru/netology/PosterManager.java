@@ -29,11 +29,17 @@ public class PosterManager {
 
     public PosterItem[] findLast() {
       int resultLength;
+      if (limit > 10) {
+        limit = 10;
+      }
+
       if (items.length < limit) {
         resultLength = items.length;
       } else {
         resultLength = limit;
       }
+
+
 
       PosterItem[] result = new PosterItem[resultLength];
         for (int i = 0; i < result.length; i++) {

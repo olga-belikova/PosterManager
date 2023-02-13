@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe7db0a0-39d7-459f-866c-1e0db9463299" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/PosterManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/PosterManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/PosterManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/PosterManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +46,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PosterManagerTest.shouldFindUnderLimit">
+  <component name="RunManager" selected="JUnit.PosterManagerTest.shouldSetLimitAboveMax">
     <configuration name="PosterManagerTest.shouldFindMaxLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PosterManager" />
       <extension name="coverage">
@@ -99,6 +95,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PosterManagerTest.shouldSetLimitAboveMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PosterManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.PosterManagerTest" />
+      <option name="METHOD_NAME" value="shouldSetLimitAboveMax" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PosterManagerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PosterManager" />
       <extension name="coverage">
@@ -117,6 +129,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PosterManagerTest.shouldSetLimitAboveMax" />
         <item itemvalue="JUnit.PosterManagerTest.shouldFindUnderLimit" />
         <item itemvalue="JUnit.PosterManagerTest.shouldSetLimit" />
         <item itemvalue="JUnit.PosterManagerTest.shouldFindMaxLimit" />
