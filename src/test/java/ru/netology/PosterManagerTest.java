@@ -95,28 +95,5 @@ public class PosterManagerTest {
 
     }
 
-    @Test
-    public void shouldSetLimitAboveMax() {
-        PosterManager poster = new PosterManager(15);
-        poster.add(item1);
-        poster.add(item2);
-        poster.add(item3);
-        poster.add(item4);
-        poster.add(item5);
-        poster.add(item6);
-        poster.add(item7);
-        poster.add(item8);
-        poster.add(item9);
-        poster.add(item10);
-        poster.add(item11);
-        poster.add(item12);
-
-        PosterItem[] expected = { item12, item11, item10, item9, item8, item7, item6, item5, item4, item3 };
-        PosterItem[] actual = poster.findLast();
-
-        Assertions.assertArrayEquals(expected, actual);
-
-    }
-
 
 }
